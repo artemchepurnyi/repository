@@ -1,0 +1,39 @@
+.wrapper2 p.nested2 {
+    background-color: yellow;
+}
+
+.paragraph {
+    background-color: red;
+}
+
+#unique-paragraph {
+    background-color: green;
+}
+
+a[href*="page"] {
+    background-color: rgb(255, 0, 183);
+}
+
+section p {
+    background-color: rgb(157, 0, 255);
+}
+
+div section p {
+    background-color: rgb(0, 255, 89);
+}
+
+.wrapper p.nested {
+    background-color: pink;
+}
+
+span.highlight {
+    background-color : rgb(0, 255, 255);
+}
+
+#special {
+    background-color: rgb(255, 128, 0);
+}
+
+button[type="button"] {
+    background-color: rgb(176, 72, 205);
+}
