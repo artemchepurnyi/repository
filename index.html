@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper2">
+    <p class="nested2">до тегів p, вкладених y div Selector Specificity: (0, 0, 2) </p>
+</div>
+
+    <p class="paragraph"> до елементів з class paragraph Selector Specificity: (0, 1, 0)</p>
+
+    <p id="unique-paragraph"> до елементів з id unique-paragraph Selector Specificity: (1, 0, 0)</p>
+
+    <a href="/index.html">до елементів з a href Selector Specificity: (0, 1, 1)</a>
+
+    <section>
+        <p>Застосовується до тегів p, вкладених y section Selector Specificity: (0, 0, 2).</p>
+    </section>
+
+    <div>
+        <section>
+            <p>Застосовується до p в section, яка в div Selector Specificity: (0, 0, 3).</p>
+        </section>
+    </div>
+
+    <div class="wrapper">
+        <p class="nested">Застосовується до p class="nested вкладених y div class="wrapper" Selector Specificity: (0, 2, 1) </p>
+    </div>
+
+    <span class="highlight">Застосовується до span class="highlight" Selector Specificity: (0, 1, 1) </span>
+    
+    <section id="special">
+        <h2> Застосовується до h2 вкладених y section з id Selector Specificity: (1, 0, 0)</h2>
+    </section>
+
+    <button type="button">Застосовується до button type="button" Selector Specificity: (0, 1, 1) </button>
+
+</body>
+</html>
